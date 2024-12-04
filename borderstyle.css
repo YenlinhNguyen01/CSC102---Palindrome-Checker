@@ -1,0 +1,77 @@
+body{
+    background: linear-gradient(to left, #b589d6, #552586);
+}
+
+main{
+    background-color: azure;
+    width: 55%;
+    height: 380px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+main h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+main h2{
+    margin-left: 45px;
+    font-size: 25px;
+}
+
+main p{
+    width: 80%;
+    margin-left: 65px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#textbox{
+    width: 85%;
+    height: 50px;
+    margin-left: 30px;
+    font-size: 15px;
+    padding: 0px 20px;
+    outline: none;
+    border-radius: 7px;
+    border: 2px solid;
+    margin-top: 30px;
+}
+
+#checkBtn{
+    width: 50%;
+    height: 40px;
+    font-size: 23px;
+    margin-left: 175px;
+    margin-top: 40px;
+    background-color: paleturquoise;
+    color: black;
+    border: none;
+    outline: none;
+    font-weight: 450;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+#checkBtn:hover{
+    cursor: pointer;
+    background: #517388
+}
+
+.correct{
+    color: white;
+}
+
+.wrong{
+    color: white;
+}
+
+.message{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 60px;
+    font-weight: 350;
+}
