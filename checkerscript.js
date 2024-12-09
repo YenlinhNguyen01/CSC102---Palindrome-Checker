@@ -2,6 +2,9 @@ let button = document.querySelector('#checkBtn')
 let message = document.querySelector('.message')
 let container = document.querySelector('main')
 
+let audio = new Audio("RainInsideHouse.wav")//Week 4 - Audio Input changes:
+//It is recommanded to check supported audio formats for certain browser support
+
 button.addEventListener('click', () => {
     let text = document.getElementById('textbox').value
     let reverse = text.split('').reverse().join('')
@@ -30,3 +33,13 @@ button.addEventListener('click', () => {
         }
     }
 })
+
+function playAudio() {//Week 4 - Audio Input changes
+    if(audio.paused){
+        audio.play();
+    }
+    else{
+        audio.pause();
+    }
+}//The play method for the audio function will start playing the audio
+//The pause method will pauses the audio file that is currently playing
